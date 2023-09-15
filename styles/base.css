@@ -1,0 +1,90 @@
+/* Reset some default styles for consistency */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #DDDBCB;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #4A442D;
+    color: #DDDBCB;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header img {
+    max-width: 100px;
+    border-radius: 10%;
+}
+
+.headerp {
+    font-size: 1.2em;
+}
+
+/* Style the navigation links */
+nav {
+    background-color: #3D3522;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #DDDBCB;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #DDDBCB;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #3D3522;
+    background-color: #DDDBCB;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4A442D;
+    color: #DDDBCB;
+}
+
+/* Style links in the footer */
+footer a {
+    color: #DDDBCB;
+    text-decoration: none;
+}
+
+/* Style the current year and last modified date spans */
+#currentyear,
+#lastmodified {
+    font-weight: bold;
+}
