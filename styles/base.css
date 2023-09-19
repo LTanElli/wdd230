@@ -1,3 +1,20 @@
+/* 
+Colors
+
+Primary
+#FFC15E tan
+#4A442D moss
+#3D3522 dark moss
+#111717 dark night
+
+Secondary
+DDDBCB ?? white ish
+E3DFFF white lavender
+361D2E dark purple
+7A3100 chocolate
+
+ */
+
 /* Reset some default styles for consistency */
 body,
 h1,
@@ -12,14 +29,14 @@ li {
 
 /* Set a background color for the body */
 body {
-    background-color: #DDDBCB;
+    background-color: #E3DFFF;
     font-family: Arial, sans-serif;
 }
 
 /* Style the header */
 header {
     background-color: #4A442D;
-    color: #DDDBCB;
+    color: #E3DFFF;
     text-align: center;
     padding: 20px;
     display: flex;
@@ -44,8 +61,15 @@ nav {
     padding: 10px;
 }
 
+nav a:hover {
+    padding: 5px;
+    background-color:#FFC15E;
+    color:#111717;
+    border-radius: 40%;
+}
+
 nav a {
-    color: #DDDBCB;
+    color: #E3DFFF;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -55,7 +79,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #DDDBCB;
+    background-color: #E3DFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 }
 
@@ -63,7 +87,7 @@ main {
     margin-bottom: 20px;
     padding: 20px;
     border: 2px solid #3D3522;
-    background-color: #DDDBCB;
+    background-color: #E3DFFF;
 }
 
 /* Style the footer */
@@ -71,12 +95,12 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #4A442D;
-    color: #DDDBCB;
+    color: #E3DFFF;
 }
 
 /* Style links in the footer */
 footer a {
-    color: #DDDBCB;
+    color: #E3DFFF;
     text-decoration: none;
 }
 
