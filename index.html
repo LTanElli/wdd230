@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <script src="./scripts/getdates.js" defer></script>
+    <script src="menu.js" defer></script>
     <title>Lynn Tanner Elliott - WDD 230 - Web Frontend Development</title>
     <!-- this is a comment -->
 </head>
@@ -32,9 +33,19 @@
         <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
         <a href=""></a>
     </nav>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle">&#9776;</label> <!-- Hamburger menu icon -->
+    <nav class="mobile-nav">
+        <a href="#">Home</a>
+        <a href="chamber/siteplan.html">Site Plan</a>
+        <a href="chamber/">Chamber</a>
+        <a href="https://www.byui.edu/">BYU-Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+    </nav>
+
     <main>
         <h2>WDD 230 Web Frontend Development</h2>
-        <section class="card">
+        <section class="card" id="la">
             <h3>Learning activities</h3>
             <ul>
                 <li><a href="lesson01/holygrail.html">Lesson 01: Holy Layout</a></li>
@@ -46,7 +57,7 @@
                 <li><a></a></li>
             </ul>
         </section>
-        <section class="card">
+        <section class="card" id="weath">
             <h3>Information</h3>
         </section>
     </main>

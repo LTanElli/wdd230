@@ -74,12 +74,68 @@ nav a {
     margin: 0 10px;
 }
 
+/* hamburger */
+/* CSS for the hamburger menu */
+.nav-toggle {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  /* Styles for the mobile navigation menu */
+  .mobile-nav {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+  }
+  
+  .mobile-nav a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* Show the mobile navigation when the checkbox is checked */
+  #nav-toggle:checked + .mobile-nav {
+    display: flex;
+  }
+  
+
 /* Style the main content */
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #E3DFFF;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452); */
+}
+
+h2{
+    margin-bottom:30px;
+}
+
+/* Learning Activities Section */
+#la {
+    background-color:#E3DFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+}
+
+ul li a {
+    color:#111717;
+    margin-bottom:10px;
+}
+
+ul li a:hover {
+    color:#3D3522;
+    border:solid 1px #111717
+} 
+
+/* Weather and Map section */
+#weath {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 }
 
