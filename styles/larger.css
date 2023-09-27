@@ -44,3 +44,41 @@
         margin-bottom: 20px;
     }
 }
+
+/* styles/mobile.css */
+
+/* Hamburger menu icon */
+.nav-toggle {
+    display: none;
+  }
+  
+  #menu-icon {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    color: #E3DFFF;
+    font-size: 24px;
+  }
+  
+  /* Mobile navigation */
+  .mobile-nav {
+    display: none;
+    flex-direction: column;
+    background-color: #3D3522;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+  }
+  
+  .mobile-nav a {
+    color: #E3DFFF;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Show the mobile navigation when the checkbox is checked */
+  #nav-toggle:checked + .mobile-nav {
+    display: flex;
+  }
+  

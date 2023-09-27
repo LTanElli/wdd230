@@ -74,37 +74,6 @@ nav a {
     margin: 0 10px;
 }
 
-/* hamburger */
-/* CSS for the hamburger menu */
-.nav-toggle {
-    display: none;
-    cursor: pointer;
-    padding: 10px;
-  }
-  
-  /* Styles for the mobile navigation menu */
-  .mobile-nav {
-    display: none;
-    flex-direction: column;
-    background-color: #333;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 200px;
-  }
-  
-  .mobile-nav a {
-    color: #fff;
-    padding: 10px;
-    text-decoration: none;
-  }
-  
-  /* Show the mobile navigation when the checkbox is checked */
-  #nav-toggle:checked + .mobile-nav {
-    display: flex;
-  }
-  
-
 /* Style the main content */
 main {
     max-width: 800px;

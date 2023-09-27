@@ -39,27 +39,41 @@
 //   });
   
 
+// // menu.js
+// document.addEventListener('DOMContentLoaded', function () {
+//     const navToggle = document.getElementById('nav-toggle');
+//     const mobileNav = document.querySelector('.mobile-nav');
+  
+//     // Function to toggle the mobile navigation menu
+//     function toggleMobileNav() {
+//       mobileNav.style.display = navToggle.checked ? 'flex' : 'none';
+//     }
+  
+//     // Close the mobile menu when a link is clicked
+//     const mobileNavLinks = document.querySelectorAll('.mobile-nav a');
+//     mobileNavLinks.forEach((link) => {
+//       link.addEventListener('click', () => {
+//         navToggle.checked = false;
+//         toggleMobileNav();
+//       });
+//     });
+  
+//     // Initial call to set the mobile navigation menu
+//     toggleMobileNav();
+//   });
+
+  
 // menu.js
 document.addEventListener('DOMContentLoaded', function () {
     const navToggle = document.getElementById('nav-toggle');
-    const mobileNav = document.querySelector('.mobile-nav');
-  
-    // Function to toggle the mobile navigation menu
-    function toggleMobileNav() {
-      mobileNav.style.display = navToggle.checked ? 'flex' : 'none';
-    }
   
     // Close the mobile menu when a link is clicked
     const mobileNavLinks = document.querySelectorAll('.mobile-nav a');
     mobileNavLinks.forEach((link) => {
       link.addEventListener('click', () => {
         navToggle.checked = false;
-        toggleMobileNav();
       });
     });
-  
-    // Initial call to set the mobile navigation menu
-    toggleMobileNav();
   });
   
   
