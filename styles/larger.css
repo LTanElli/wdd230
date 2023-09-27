@@ -69,6 +69,7 @@
     top: 60px;
     right: 0;
     width: 200px;
+    z-index: 1;
   }
   
   .mobile-nav a {
@@ -78,7 +79,7 @@
   }
   
   /* Show the mobile navigation when the checkbox is checked */
-  #nav-toggle:checked + .mobile-nav {
+  #nav-toggle:checked + .mobile-header .mobile-nav {
     display: flex;
   }
   
